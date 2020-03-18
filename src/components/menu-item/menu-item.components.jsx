@@ -1,5 +1,6 @@
 import React from "react";
-
+import { connect } from "react-redux";
+import { addItem } from "../../redux/cart/cart.actions";
 import {
   MenutItemContainer,
   TitleContainer,
@@ -9,7 +10,7 @@ import {
   BackgroundImageContainer,
   Buttonitem
 } from "./menu-item.styles";
-
+// import "./menu-styles.scss";
 const MenutItem = ({ item, addItem }) => {
   const { title, image, price, author } = item;
   return (
@@ -19,7 +20,7 @@ const MenutItem = ({ item, addItem }) => {
       <Author>{author}</Author>
       <ItemFoorterContainer>
         <PriceContainer>Rp.{price}</PriceContainer>
-        <Buttonitem>
+        <Buttonitem onClick={() => addItem(item)}>
           ADD
           <i
             class="material-icons"
@@ -32,5 +33,7 @@ const MenutItem = ({ item, addItem }) => {
     </MenutItemContainer>
   );
 };
-
-export default MenutItem;
+const mapDispatchToProps = dispatch => ({
+  addItem: item => dispatch(addItem(item))
+});
+export default connect(null, mapDispatchToProps)(MenutItem);

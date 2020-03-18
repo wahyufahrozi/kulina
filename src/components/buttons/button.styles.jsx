@@ -2,10 +2,11 @@ import styled from "styled-components";
 
 export const ButtonContainer = styled.div`
   flex-direction: row;
-  width: 100%;
+  width: 50%;
   display: flex;
-  margin-bottom: 8px;
+  margin-bottom: 20px;
   text-align: center;
+  margin-left: 5%;
 `;
 
 export const Button = styled.button`
@@ -15,7 +16,9 @@ export const Button = styled.button`
   border-radius: 4px;
   padding: 0.25em 6em;
   border: none;
-  /* Adapt the colors based on primary prop */
+  cursor: pointer;
+  margin: 0 auto;
+  outline: 1px solid #f1f1f2;
   background: ${props => (props.primary ? " #424749" : "white")};
   color: ${props => (props.primary ? "white" : "#f1f1f2")};
 `;

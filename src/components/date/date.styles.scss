@@ -1,0 +1,42 @@
+.Datepicker--DateList--scrollable {
+  display: flex;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  margin: 2px 0 2px 0;
+  margin-bottom: 20px;
+}
+.DateDayItem--selected {
+  font-weight: bold;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 2px solid #424749;
+  color: white;
+  background-color: #424749;
+}
+.Datepicker--button-prev,
+.Datepicker--button-next {
+  border: none;
+  text-decoration: none;
+  background: rgb(77, 123, 243);
+  cursor: pointer;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+.Datepicker--MonthYearLabel {
+  margin-left: 12px;
+  align-self: flex-start;
+  font-size: 15px;
+  color: rgb(77, 123, 243);
+  font-weight: bold;
+  display: none;
+}

@@ -1,10 +1,9 @@
 import CartActionTypes from "./cart.types";
-import { addItemTocart } from "./cart.utill";
+import { addItemTocart } from "./cart.utils";
 
 const INITIAL_STATE = {
   cartItems: []
 };
-
 const cartReducer = (state = INITIAL_STATE, action) => {
   switch (action.type) {
     case CartActionTypes.ADD_ITEM:
