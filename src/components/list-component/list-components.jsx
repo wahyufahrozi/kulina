@@ -14,6 +14,3 @@ export const ListComponents = props => {
     </ListContainer>
   );
 };
-{
-  /* <p>{props.item.jalan}</p> */
-}
