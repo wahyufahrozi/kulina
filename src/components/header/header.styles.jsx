@@ -14,6 +14,6 @@ export const HeaderContent = styled.div`
   align-items: center;
   justify-content: flex-start;
   font-size: 12px;
-  color: #e2e4e4;
+  color: #6e7679;
   flex-direction: column;
 `;
