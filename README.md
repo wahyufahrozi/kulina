@@ -1,68 +1,90 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Kulina
 
-## Available Scripts
+<p align="center">
+  <a href="https://nodejs.org/">
+    <img title="Restful API" height='200' src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png">
+  </a>
+</p>
+<p align="center">
+    <a href="#">
+    <img alt="wahyu" src="https://img.shields.io/david/dev/wahyufahrozi/FrontEndReact">
+  </a>
+  <a href="https://github.com/iyansr?tab=followers">
+    <img title="Followers" src="https://img.shields.io/github/followers/wahyufahrozi?style=social">
+  </a>
+  <a href="#">
+    <img title="Open Source Love" src="https://badges.frapsoft.com/os/v1/open-source.svg?v=102">
+  </a>
+  <a href="#">
+    <img title="Repo Size" src="https://img.shields.io/github/repo-size/wahyufahrozi/FrontEndReact">
+  </a>
+  <a href="https://github.com/prettier/prettier"><img src="https://img.shields.io/badge/styled_with-prettier-ff69b4.svg"></a>
+</p>
 
-In the project directory, you can run:
+## Table Of Contents
 
-### `yarn start`
+- [Kulina](#kulina)
+  - [Table Of Contents](#table-of-contents)
+  - [Build Setup](#build-setup)
+  - [Stacks](#stacks)
+  - [Dependencies](#dependencies)
+  - [Aplication Structure](#aplication-structure)
+  - [Screenshots](#screenshots)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Build Setup
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+1. Clone repository
+   `$ git clone https://github.com/wahyufahrozi/kulina`
 
-### `yarn test`
+2. Install depedencies
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+# with npm
+$ npm install
 
-### `yarn build`
+# or with yarn
+$ yarn install
+```
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Start Web server
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```bash
+$ npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Stacks
 
-### `yarn eject`
+- ReactJS
+- Redux
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Dependencies
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [react-redux](https://www.npmjs.com/package/react-redux) - Official React bindings for Redux. Performant and flexible.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Aplication Structure
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- `index.js` - Entry point of our aplication
+- `src/Components` - This folder containt files that define all components
+- `src/Pages` - All pages of this web goes here
+- `src/Helper` - This folder contain data Dummy
+- `src/Redux` - This folder contain all about redux
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Screenshots
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Home
 
-### Code Splitting
+  ![image](https://user-images.githubusercontent.com/22940581/77004968-8ffbb180-6992-11ea-8a82-045ff0754f1e.png)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+- Cart
 
-### Analyzing the Bundle Size
+  ![image](https://user-images.githubusercontent.com/22940581/77005039-b4f02480-6992-11ea-931e-0ac95dc04523.png)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+- Map
 
-### Making a Progressive Web App
+  ![image](https://user-images.githubusercontent.com/22940581/77005221-05678200-6993-11ea-8901-8a1ab71a5cfd.png)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+---
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Copyright © 2020 by Wahyu Fahrozi Rezeki Ramadhan
