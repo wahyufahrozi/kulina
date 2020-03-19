@@ -11,6 +11,7 @@ const DateComponents = () => {
       shouldScroll={true}
       endDate={100}
       selectDate={new Date("2020-01-30")}
+      disabledDays={[new Date("2020-01-30"), { daysOfWeek: [0, 6] }]}
     />
   );
 };

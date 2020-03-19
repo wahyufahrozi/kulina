@@ -52,3 +52,10 @@ export const IconContent = styled.div`
   color: #e2e4e4;
   flex-direction: row;
 `;
+
+export const CartBottom = styled.div`
+  width: 100%;
+  height: 20px;
+  display: flex;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #ffffff);
+`;

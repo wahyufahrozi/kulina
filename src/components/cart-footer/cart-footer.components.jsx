@@ -11,7 +11,8 @@ import {
   CartContent,
   SubContent,
   IconContent,
-  IconContainer
+  IconContainer,
+  CartBottom
 } from "./cart-footer.styles";
 
 const CartItem = ({ itemCount, total }) => (
@@ -38,6 +39,7 @@ const CartItem = ({ itemCount, total }) => (
         </i>
       </IconContent>
     </IconContainer>
+    <CartBottom></CartBottom>
   </CartContainer>
 );
 const mapStateToProps = createStructuredSelector({
